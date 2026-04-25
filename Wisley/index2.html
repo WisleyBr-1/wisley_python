@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Básica</title>
+    <style>
+        /* CSS Básico para estilização */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        article {
+            background-color: #fff;
+            max-width: 800px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+        }
+
+        .img-container {
+            width: 100%;
+            height: 300px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            border-radius: 4px;
+            color: #666;
+            font-style: italic;
+            overflow: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #555;
+            font-size: 1.2rem;
+        }
+
+        ul, ol {
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <article>
+        <h1>Bem-vindo ao Meu Artigo</h1>
+
+        <p>Este é um exemplo de uma página estruturada com HTML5 e CSS3. Abaixo você verá uma imagem de exemplo, listas e links.</p>
+
+        <!-- Template de Imagem -->
+        <div class="img-container">
+            <!-- Substitua o src por uma URL real se desejar -->
+            <img src="https://via.placeholder.com/800x300" alt="Imagem de exemplo">
+        </div>
+
+        <section>
+            <h2>Por que aprender HTML?</h2>
+            <p>HTML é a linguagem de marcação fundamental para a web. Para saber mais, visite o <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a>.</p>
+        </section>
+
+        <section>
+            <h2>Minha Lista Não Ordenada (ul)</h2>
+            <ul>
+                <li>Item de foco principal</li>
+                <li>Item secundário de suporte</li>
+                <li>Dica importante para o leitor</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Passo a Passo (Lista Ordenada - ol)</h2>
+            <ol>
+                <li>Abra o seu editor de código.</li>
+                <li>Escreva a estrutura básica do HTML.</li>
+                <li>Adicione o CSS para dar estilo.</li>
+                <li>Visualize o resultado no navegador.</li>
+            </ol>
+        </section>
+
+        <footer>
+            <p><small>Criado como exemplo de estrutura HTML/CSS.</small></p>
+        </footer>
+    </article>
+
+</body>
+</html>
